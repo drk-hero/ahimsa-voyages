@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="img/logo/logo.png">
+    <title>ahimsa voyages</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/scss/master.css">
+    <link rel="stylesheet" href="style/scss/local.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="container-xl container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo/logo.webp" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse navbar-body-colapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DESTINATIONS
+                                <i class="bi bi-caret-down-fill"></i>
+                            </a>
+                            <ul class="navbar-nav navbar-submenu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">France</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Europe</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Africa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">America</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Oceania</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">THÉMATIQUES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">AHIMSA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-slider-header">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active pos-parent-img">
+                    <img src="img/slider-header/1.jpg" alt="">
+                </div>
+                <div class="carousel-item pos-parent-img">
+                    <img src="img/slider-header/2.jpg" alt="">
+                </div>
+                <div class="carousel-item pos-parent-img">
+                    <img src="img/slider-header/3.jpg" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <section class="container-fluid section-info my100p">
+        <div class="container text-center section-title-info">
+            <h2>Voyage Eco-responsable</h2>
+            <p>Réduire notre empreinte, prendre le temps et s’enrichir d’expériences nouvelles…</p>
+            <hr class="brake-line">
+        </div>
+        <div class="row eco-responsible justify-content-center my-5">
+            <div class="col-lg-3 col-11 my-3 mx-4">
+                <img src="img/othre/1.webp" alt="">
+            </div>
+            <div class="col-lg-3 col-11 my-3 mx-4">
+                <img src="img/othre/2.webp" alt="">
+            </div>
+            <div class="col-lg-3 col-11 my-3 mx-4">
+                <img src="img/othre/3.webp" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section class="container-fluid find-trip my100p">
+        <div class="container text-center mt-3 text-white">
+            <h2>Trouvez votre voyage</h2>
+            <br>
+            <hr class="brake-line ">
+        </div>
+        <div class="container">
+            <form class="form-find-trip my-5 row justify-content-center" action="">
+                <div class="col-12 col-md-6 col-lg-3 my-3">
+                    <div class="dropdown">
+                        <p class="label-title">Destination :</p>
+                        <button class="btn dropdown-toggle select-option" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Destination
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">All Destinations</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">Africa</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">America</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">Asia</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 my-3">
+                    <div class="dropdown">
+                        <p class="label-title">Themes :</p>
+                        <button class="btn dropdown-toggle select-option" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            All Themes
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">All Themes</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">Walk</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">By bike</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">Unsuspected Territories</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">With family</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">By train</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">Nature</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 my-3">
+                    <div class="dropdown">
+                        <p class="label-title">Departure Month :</p>
+                        <button class="btn dropdown-toggle select-option" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            All Departures
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">January</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">By February</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">March</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">April</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">May</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">July</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">August</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">September</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">October</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">November</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">December</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 my-3">
+                    <div class="dropdown">
+                        <p class="label-title">Duration :</p>
+                        <button class="btn dropdown-toggle select-option" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        All Durations
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">All Durations</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">1 to 5 days</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">6 to 8 days</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">9 to 15 days</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">16 to 22 days</a></li>
+                            <li><a onclick="_noHref(event)" class="dropdown-item" href="#">23 days or more</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 my-3">
+                    <div class="btn form-sub" type="submit">
+                        <span>to search</span>
+                    </div>
+            </form>
+            </div>
+    </section>
+    <section class="container-fluid my100p or-themes">
+        <div class="container text-center mt-3 text-white">
+            <h2 class="color-gold">Nos thématiques</h2>
+            <br>
+            <hr class="brake-line">
+        </div>
+        <div class="container grid-themes">
+            <div class="col-12 col-lg-12 grid-area grid-area-1 align-self-center">
+                <div class="image-our-themes">
+                    <img src="img/our-themes/3.webp" alt="">
+                    <div class="title-our-themes bottom25p">
+                        <h2>WITH FAMILY</h2>
+                        <p>Living together as a family outside of everyday life means taking the time to (re)discover each other, to exchange and discuss, and above all to share unique moments that strengthen our ties, forge our lives and open our eyes and
+                            'spirit.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-12 grid-area grid-area-2">
+                <div class="image-our-themes">
+                    <img src="img/our-themes/4.webp" alt="">
+                    <div class="title-our-themes">
+                        <h2>BY BIKE</h2>
+                        <p>Super ecological means of transport, we offer a great offer of bike trips in France and Europe... and also in the world.</p>
+                    </div>
+                </div>
+                <div class="image-our-themes mt-5">
+                    <img src="img/our-themes/6.webp" alt="">
+                    <div class="title-our-themes">
+                        <h2>NATURE</h2>
+                        <p>95% of travelers go to less than 5% of the planet's territories. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-12 grid-area grid-area-3">
+                <div class="image-our-themes">
+                    <img src="img/our-themes/1.webp" alt="">
+                    <div class="title-our-themes bottom17p">
+                        <h2>WORK & TRAVEL</h2>
+                        <p>Going away longer and less often to take full advantage of it is not given to everyone. </p>
+                    </div>
+                </div>
+                <div class="image-our-themes mt-5">
+                    <img src="img/our-themes/5.webp" alt="">
+                    <div class="title-our-themes bottom25p">
+                        <h2>MULTI-ACTIVITIES</h2>
+                        <p>Traveling is also for many synonymous with practicing their favorite sporting activities. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- line 2 -->
+            <div class="col-12 col-lg-12 grid-area grid-area-4">
+                <div class="image-our-themes">
+                    <img src="img/our-themes/2.webp" alt="">
+                    <div class="title-our-themes">
+                        <h2>Unsuspected Territories</h2>
+                        <p>It is undeniably in contact with nature that we recharge our batteries and find ourselves. </p>
+                    </div>
+                </div>
+                <div class="image-our-themes mt-5">
+                    <img src="img/our-themes/7.webp" alt="">
+                    <div class="title-our-themes bottom25p">
+                        <h2>WALK</h2>
+                        <p>In the natural environment, it is a gentle physical activity, beneficial to physical and mental health, guaranteed for our well-being!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-12 grid-area grid-area-6">
+                <div class="image-our-themes">
+                    <img src="img/our-themes/8.webp" alt="">
+                    <div class="title-our-themes bottom25p">
+                        <h2>ROAD TRIP</h2>
+                        <p>Our trips in "Road Trip" mode are long crossings to take the time to discover a country in depth. </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-12 grid-area grid-area-6">
+                <div class="image-our-themes mt-5">
+                    <img src="img/our-themes/9.webp" alt="">
+                    <div class="title-our-themes">
+                        <h2>WELFARE</h2>
+                        <p>Connect to the essentials, breathe, practice yoga, meditate, purify yourself, take care of yourself... these are the activities that make up our Well-being journeys.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid my100p mb-0 ready-foryou">
+        <div class="container my-5">
+            <h2 class="fs-3 text-white">PRÊT POUR VOTRE PROCHAIN VOYAGE ?</h2>
+            <br>
+            <hr class="brake-line">
+        </div>
+        <div class="container my-5 header-ready-you">
+            <button class="btn-ready-you">Contactez-nous
+                <i class="bi bi-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+    <footer class="container mb-5">
+        <p class="text-center mt-3">
+            <a class="rahmat-hover" href="http://rahmatsa.com/" target="_blank">rahmat saghafi</a> – @2021. Ahimsa-voyages – All Rights Reserved
+        </p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+    function _noHref(eve) {
+        eve.preventDefault()
+    }
+</script>
+
+</html>
